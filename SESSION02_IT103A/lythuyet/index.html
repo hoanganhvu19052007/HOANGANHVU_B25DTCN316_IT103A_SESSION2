@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- thẻ table: thẻ bảng -->
+    <!-- thuộc tính border - phân cách các cột, hàng -->
+    <!-- cellpadding: khoảng cách hoặc độ rộng giữa khoảng cách và cột 
+             cellspacing: khoảng cách giữa hai đường viền-->
+    <table border="1" cellpadding="10" cellspacing="0">
+      <!-- Tên của bảng -->
+      <caption>
+        <strong>Bảng dữ liệu người dùng</strong>
+      </caption>
+      <!-- hàng tiêu đề của bảng thead -->
+      <thead>
+        <!-- tạo ra một hàng -->
+        <tr>
+          <!-- tạo các cột tiêu đề chính <th>-->
+          <th>STT</th>
+          <th>Họ và tên</th>
+          <th>Tuổi</th>
+          <th>Giới tính</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- align = "center" căn giữa -->
+        <tr align="center">
+          <!-- tạo các cột dữ liệu dùng <td> -->
+          <td>1</td>
+          <td>Nguyễn Văn A</td>
+          <td>20</td>
+          <td>Nam</td>
+        </tr>
+        <tr align="center">
+          <td>2</td>
+          <td>Hoàng Thị B</td>
+          <td>25</td>
+          <td bgcolor="pink">Nữ</td>
+          <!-- bgcolor = "" dùng để chuyển màu nền -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
